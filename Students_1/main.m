@@ -2,7 +2,7 @@
 //  main.m
 //  Students_1
 //
-//  Created by Jay on 2016-02-01.
+//  Created by Jay Pandya 062791132 on 2016-02-01.
 //  Copyright © 2016 Jay. All rights reserved.
 //
 
@@ -15,6 +15,8 @@ void greet(Student *s);
 int main(int argc, char * argv[]) {
     // Related to memory
     @autoreleasepool {
+        NSLog(@"Jay Pandya 062791132 \n");
+        
         // Alice
         // Address of Student obj in memory or return nil if out of memory.
         Student *alice = [Student alloc]; // returns nil if out of memory. Otherwise places a student obj in memory.
